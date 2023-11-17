@@ -1,0 +1,244 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'poppins', sans-serif;
+}
+
+
+a.about{
+    font-size: 15px;
+    color: rgb(126, 126, 126);
+    position: absolute;
+left: 745px;
+top: 20px;
+text-decoration: none;
+font-family: 'rubik', sans-serif;
+}
+
+.about:hover{
+    color: black;
+    font-size: 18px;
+    transition: 0.25s ease;
+}
+
+a.contact{
+    font-size: 15px;
+    color: rgb(126, 126, 126);
+    position: absolute;
+left: 845px;
+top: 20px;
+text-decoration: none;
+font-family: 'rubik', sans-serif;
+}
+
+
+.contact:hover{
+    color: black;
+    font-size: 18px;
+    transition: 0.25s ease;
+}
+
+
+
+a.home{
+    font-size: 15px;
+    color: rgb(126, 126, 126);
+    position: absolute;
+left: 645px;
+top: 20px;
+text-decoration: none;
+font-family: 'rubik', sans-serif;
+}
+
+.home:hover{
+    color: black;
+    font-size: 18px;
+    transition: 0.25s ease;
+}
+
+
+
+
+.container{
+width: 100%;
+height: 100%;
+margin: 100px auto;
+display: flex;
+justify-content: center;
+}
+
+
+form{
+background:#001660;
+display: flex;
+flex-direction: column;
+padding: 2vw 4Vw;
+width: 90%;
+max-width: 600px;
+border-radius: 10px;
+}
+
+form h3{
+font-weight:800;
+margin-bottom: 20px;
+font-family: 'Rubik', sans-serif;
+color: white;
+background:#001660;
+}
+
+form input, form textarea{
+border: 0px;
+margin: 10px 0;
+padding: 20px;
+outline: none;
+background-color: white;
+font-size: 16px;
+border-radius: 12px;
+}
+
+
+form button{
+padding: 15px;
+background-color: orange;
+font-size:18px;
+border: 0;
+outline: none;
+width: 150px;
+margin: 20px auto 0;
+border-radius: 30px;
+}
+
+
+
+@media screen and ( width < 488px) {
+  
+  
+.contaner1 {
+  display: flex;
+  width: 0px;
+  cursor: pointer;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+
+.contaner1, myfunction{
+  display: float;
+  width: 105px;
+  cursor: pointer;
+  position: relative;
+  top: 20px;
+  left: -30vh;
+  background-color: blue;
+}
+
+
+#bar1, #bar2, #bar3 {
+  width: 25px;
+  height: 4px;
+  position: relative;
+  top: 20px;
+  left: 580px;
+  border-radius: 2px;
+  background-color: #333;
+  margin: 4px 0;
+  transition: 0.4s;
+}
+
+ .icon #bar1 {
+  transform: translate(0, 10px) rotate(-45deg);
+}
+
+ .icon #bar2 {opacity: 0;}
+
+ .icon #bar3 {
+  transform: translate(0, -6px) rotate(45deg);
+}
+
+#check{
+  display: none;
+  width: 45px;
+}
+
+.toggle ul a{
+
+display: grid;
+
+position: float;
+left: -100vh;
+text-align: center;
+align-items: center;
+font-size: 10px;
+transition: 0.40s ease;
+}
+
+.toggle ul a:hover{
+  color: black;
+  font-size: 13px;
+  transition: 0.25s ease;
+}
+
+#check:checked ~ .toggle ul a.home{
+ 
+   left: 55px;
+ 
+}
+
+
+#check:checked ~ .toggle ul a.contact{
+   left: 247px;
+}
+
+#check:checked ~ .toggle ul a.about{
+   left: 151px;
+}
+
+#check:checked ~ #container1 {
+   position: fixed;
+}
+   
+
+    a.home{
+      position: absolute;
+      left: 34px;
+      top: 40px;
+      background-color: orange;
+      width: 70px;
+      height: 30px;
+      display: grid;
+      text-align: center;
+      align-items: center;
+      border-radius: 7px;
+    }
+    
+        a.contact{
+      position: absolute;
+     left: 286px;
+      top: 40px;
+      background-color: orange;
+      width: 70px;
+      height: 30px;
+      display: grid;
+      text-align: center;
+      align-items: center;
+      border-radius: 7px;
+    }
+   
+    a.about{
+      position: absolute;
+     left: 160px;
+      top: 40px;
+      background-color: orange;
+      width: 70px;
+      height: 30px;
+      display: grid;
+      text-align: center;
+      align-items: center;
+      border-radius: 7px;
+    }
+    
+   
+   
+
+}
