@@ -109,7 +109,14 @@ margin: 20px auto 0;
 border-radius: 30px;
 }
 
-
+.Notice{
+  width: 600px;
+  text-align: center;
+  font-size: 10px;
+margin: 100px auto;
+display: flex;
+justify-content: center;
+}
 
 @media screen and ( width < 488px) {
   
@@ -238,7 +245,14 @@ transition: 0.40s ease;
       border-radius: 7px;
     }
     
-   
+   .Notice{
+  width: 300px;
+  text-align: center;
+  font-size: 10px;
+margin: -70px auto;
+display: flex;
+justify-content: center;
+}
    
 
 }
