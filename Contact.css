@@ -118,6 +118,11 @@ display: flex;
 justify-content: center;
 }
 
+  #check{
+  display: none;
+  }
+
+
 @media screen and ( width < 488px) {
   
   
